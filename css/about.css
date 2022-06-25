@@ -46,10 +46,10 @@ picture {
     scroll-behavior: auto !important;
   }
 }
-#header {
+header {
   position: relative;
 }
-#header .header__info {
+header .header__info {
   width: 480px;
   position: absolute;
   top: 50%;
@@ -61,35 +61,35 @@ picture {
   flex-direction: column;
   color: #fff;
 }
-#header .header__info .header__title {
+header .header__info .header__title {
   font-size: 56px;
   font-weight: 700;
 }
-#header .header__info .desc {
+header .header__info .desc {
   text-align: center;
   font-size: 18px;
   font-weight: 500;
 }
-#header .header__place {
+header .header__place {
   position: absolute;
   bottom: 10%;
   left: 5%;
   color: #ccc;
   font-size: 18px;
 }
-#header .header__place .place__icon {
+header .header__place .place__icon {
   padding: 12px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.301);
 }
 
-#content .container {
+content .container {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#content .container .section {
+content .container .section {
   width: 30%;
   margin: 12px;
   min-height: 600px;
@@ -98,10 +98,10 @@ picture {
   justify-content: center;
   flex-direction: column;
 }
-#content .container .section__title {
+content .container .section__title {
   font-family: sans-serif;
 }
-#content .container .section .desc {
+content .container .section .desc {
   text-align: center;
 }
 
@@ -139,5 +139,3 @@ picture {
   border-radius: 6px;
   outline: none;
 }
-
-/*# sourceMappingURL=about.css.map */

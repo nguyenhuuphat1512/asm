@@ -47,11 +47,4 @@ document.body.addEventListener("click", function (event) {
   }
 });
 
-const sliderImages = [
-  "../img/slider-image-02.jpg",
-  "../img/slider-image-03.jpg",
-];
 
-const slider = document.querySelector("header");
-
-slider.style.backgroundImage = `url('${sliderImages[1]}')`;
